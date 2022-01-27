@@ -12,9 +12,9 @@ set fitxerAEnviar=%1
 set WINSCP_RESULT=%ERRORLEVEL%
 
 if %WINSCP_RESULT% equ 0 (
-  echo Fitxer %fitxerAEnviar% enviat correctament!>%RUTA%\resultat.log
+  echo El fitxer %fitxerAEnviar% s ha enviat correctament!>%RUTA%\resultat.log
 ) else (
-  echo Hi hagut un error al enviar el fitxer %fitxerAEnviar%!>%RUTA%\resultat.log
+  echo Hi ha hagut un error a l enviar el fitxer %fitxerAEnviar%!>%RUTA%\resultat.log
 )
 
 rem exit /b %WINSCP_RESULT%
